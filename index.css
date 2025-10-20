@@ -9,42 +9,4 @@
     transform: translate(-50%, -50%);
 
 }
-/* palette + card style */
-.card {
-  max-width: 820px;
-  margin: 30px auto;
-  background: linear-gradient(180deg, var(--card) 0%, var(--accent-2) 100%);
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  padding: 26px;
-  text-align: center;
-}
 
-.card h1{
-  font-size: 2rem;
-  margin: 0 0 8px;
-  color: #2b2b2b;
-  letter-spacing: 0.4px;
-}
-
-.card p.lead{
-  margin: 0 0 18px;
-  font-size: 1.05rem;
-  color: #4b4b4b;
-}
-
-.signature{
-  margin-top: 14px;
-  font-weight: 700;
-  color: var(--accent);
-}
-
-/* subtle float animation for flower/icon */
-.floaty{
-  animation: floaty 5s ease-in-out infinite;
-}
-@keyframes floaty{
-  0%{ transform: translateY(0);}
-  50%{ transform: translateY(-8px);}
-  100%{ transform: translateY(0);}
-}
